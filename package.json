@@ -1,0 +1,24 @@
+{
+  "name": "natillera",
+  "version": "0.0.1",
+  "description": "Node app for managing the natillera savings system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlos-contreras/natillera.git"
+  },
+  "keywords": [
+    "natillera",
+    "node",
+    "koa"
+  ],
+  "author": "Carlos Contreras (carloscontreras0402@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlos-contreras/natillera/issues"
+  },
+  "homepage": "https://github.com/carlos-contreras/natillera#readme"
+}
