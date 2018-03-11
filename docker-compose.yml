@@ -10,7 +10,7 @@ services:
   #     - pgdata:/var/lib/postgresql/data/pgdata
   web:
     build: .
-    # command: npm run watch-server
+    command: npm run watch-server
     env_file:
       - ./.env
     volumes:
