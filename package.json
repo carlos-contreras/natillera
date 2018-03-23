@@ -24,7 +24,9 @@
   "homepage": "https://github.com/carlos-contreras/natillera#readme",
   "dependencies": {
     "koa": "^2.5.0",
-    "koa-router": "^7.4.0"
+    "koa-router": "^7.4.0",
+    "pg": "^7.4.1",
+    "ramda": "^0.25.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
