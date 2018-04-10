@@ -1,5 +1,5 @@
 import koa from 'koa';
-import { routes, allowedMethods } from './config/app-router';
+import { routes, allowedMethods } from './config/router';
 
 const app = new koa();
 
