@@ -5,14 +5,14 @@ const appRouter = router();
 
 appRouter.get('/', async (ctx, next) => {
   // ctx.router available
-  sequelize
-    .authenticate()
-    .then(() => {
-      console.log('Connection has been established successfully.');
-    })
-    .catch(err => {
-      console.error('Unable to connect to the database:', err);
-    });
+  // sequelize
+  //   .authenticate()
+  //   .then(() => {
+  //     console.log('Connection has been established successfully.');
+  //   })
+  //   .catch(err => {
+  //     console.error('Unable to connect to the database:', err);
+  //   });
   ctx.body = "hello world!";
 });
 
